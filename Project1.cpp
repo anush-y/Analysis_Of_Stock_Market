@@ -276,7 +276,7 @@ int main()
 		strcpy(cmp_name[i].name,n[i]);
 	}
 	
-printf("%lf \n",cmp_name[0].att[1].Cp_stock);
+
 	int l=1;
 	
 	while(l==1)
@@ -337,7 +337,7 @@ printf("%lf \n",cmp_name[0].att[1].Cp_stock);
 				    		cmp1_name[i].att[j].Volume=cmp_name[i].att[j].Volume;	
 						}
 					}
-					printf("%f \n",cmp1_name[1].att[1].Cp_stock);
+				
 					
 				  
 				   printf("Give the date on which you have to sort \n");
@@ -481,7 +481,6 @@ printf("%lf \n",cmp_name[0].att[1].Cp_stock);
 	return 0;		  
 		   
 }
-
 
 
 
